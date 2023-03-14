@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsView">
+
+    <TextView
+        android:id="@+id/titleHoliday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holiday Title"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/dateHoliday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Holiday"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <TextView
+        android:id="@+id/descriptionHoliday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Holiday"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <TextView
+        android:id="@+id/niceHoliday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="281dp"/>
+
+</LinearLayout>
